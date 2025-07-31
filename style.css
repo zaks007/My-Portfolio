@@ -1,0 +1,127 @@
+body {
+  scroll-behavior: smooth;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+
+.section-heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #00bfff;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #121212 ;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #00bfff;
+}
+
+.nav-link {
+  font-weight: 500;
+  margin-left: 15px;
+  color: white ;
+}
+
+.nav-link:hover {
+  color: #00bfff;
+}
+
+/* Her */
+.hero-section {
+  background-color: #181818;
+}
+
+.profile-image {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #00bfff;
+  margin-bottom: 20px;
+}
+
+
+.about-section {
+  background-color: #161616;
+}
+
+/* Skills */
+.skills-section {
+  background-color: #181818;
+}
+
+.skill-card {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #133183;
+}
+
+.skill-card:hover {
+ border: 2.5px solid aqua;
+}
+
+.skill-card i {
+  font-size: 24px;
+  color: #00bfff;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+/* Proj */
+.projects-section {
+  background-color: #161616;
+}
+
+
+.project-card:hover {
+  border: #043e52;
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Contact */
+.contact-section {
+  background-color: #181818;
+}
+
+.form-control {
+  border-radius: 4px;
+}
+
+/* Socials */
+.social-icons a {
+  color: white;
+  background-color: #197ea0;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0 8px;
+  font-size: 1.4rem;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  background-color: white;
+  color: #00384b;
+}
+
+.footer-section {
+  background-color: #121212;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
